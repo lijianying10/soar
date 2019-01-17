@@ -46,6 +46,11 @@ var (
 	CheckConfig bool
 	// 防止 readCmdFlags 函数重入
 	hasParsed bool
+
+	Version  string
+	Branch   string
+	Compile  string
+	GitDirty string
 )
 
 // Configuration 配置文件定义结构体
